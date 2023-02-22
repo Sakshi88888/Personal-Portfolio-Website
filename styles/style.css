@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+   
+     overflow: auto;
+
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 22px;
+    
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    /* This allow us to arrange list items in a row, without using float */
+   
+    list-style-type: none;
+    
+}
+ 
+/* Create a style for the first level items */
+.navbar > ul > li > a {
+    color: black;
+    float: right;
+    padding: 12px;
+    font-size: 15px;
+   
+   
+   
+    text-decoration: none;
+}
+
+/*footer styling */
+
+
+
+.footer-contact {
+
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.socials{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.socials li {
+
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+    
+    padding: 6px;
+    border-radius: 49%;
+}
+
+.socials a i{
+    font-size: 25px;
+    width: 15px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: purple;
+    
+}
+
+
+
+
+
+
+.footer-copyright {
+
+    margin-left: 20px;
+    padding: 20px;
+    color: white;
+
+}
+
+.Experience  {
+
+
+    background-color: white;
+    width: 500px;
+    height: 290px;
+    display: flex;
+   
+    margin-top: 20px;
+    margin-left: 500px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+   
+
+}
+
+.company-details{
+
+    padding: 30px;
+}
+
+.experience-title {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+
+
+   
+    
+   
+    
+    
+}
+
+.Project  {
+
+
+    background-color: white;
+    width: 600px;
+    height: 360px;
+    display: flex;
+   
+    margin-top: 100px;
+    margin-left: 450px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+   
+
+}
+
+.project-details{
+
+    padding: 20px;
+}
+.project-details image {
+
+    float: right;
+}
+
+.intro {
+
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    display: flex;
+   
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-bottom: 60px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+
+
+}
+.intro-details {
+
+    padding: 10px;
+
+
+}
+.intro-details img {
+
+    border-radius: 50%;
+   
+}
+
+
+button {
+
+    background-color: #ff5d45;
+    text-align: center;
+    
+    width: 80px;
+    height:40px;
+    padding: 5px;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.intro-div {
+
+    width:600px;
+    
+    display: flex;
+  
+    background-color: #F5CAC2;
+    height:800px;
+    bottom: 0px;
+   
+   
+}
+
+.footer-project {
+
+
+    
+    width: 100%;
+    background-color: #47135c;
+    bottom: 0;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 100px;
+    
+
+}
+
+.footer-resume {
+
+
+    
+    width: 100%;
+    background-color: #47135c;
+    bottom: 0;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 100px;
+    
+
+}
+
+.profile {
+
+
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+
+.footer-contact {
+
+
+    
+    width: 100%;
+    background-color: #47135c;
+    bottom: 0;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 100px;
+    
+
+}
+
+.footer-main {
+
+
+    
+    width: 100%;
+    background-color: #47135c;
+    bottom: 0;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 100px;
+    
+
+}
+
+
+
+
+
+
